@@ -4,3 +4,5 @@ So decided to do a sneaker store project, got the idea when working on an earlie
 
 So will do this in React, Vite, use Sass, Framer-motion, react-icons, some own figma designs, svgs, and css hamburger button and some more... fun things.
 
+no media queries of responsivness yet, working on mobile first
+
