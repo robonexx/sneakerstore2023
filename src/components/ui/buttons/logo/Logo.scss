@@ -1,0 +1,34 @@
+@use '../../../../style/base/' as *;
+.logo_wrapper {
+  position: fixed;     
+  top: 10vh;
+  left: 3vw;
+  z-index: 1000;
+}
+.logo {
+  position: relative; 
+  background: $color-gradient-gold;
+  border-radius: 50%;
+  height: 5em;
+  padding: .5em;
+  will-change: filter;
+  animation: logo-spin infinite 20s linear;
+  }
+  
+.logo:hover {
+  filter: drop-shadow(0 0 2em #636af2aa);
+  animation: logo-spin infinite 5s linear;
+  cursor: pointer;
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #4ebfdeaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,60 @@
+@use '../../../style/base/' as *;
+
+.btn {
+  padding: 12px 16px;
+  width: 40vmin;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out, color 0.4s ease-in-out;
+
+  // remove outline
+  outline: none;
+}
+
+.default {
+  border: none;
+  border-top: 1px solid #232328;
+  border-bottom: 1px solid #232328;
+  color: #232328;
+
+  &:hover {
+    background: #232328;
+    color: #f8f8f8;
+  }
+}
+
+.light {
+  border: none;
+  border-top: 1px solid #f4f4f8;
+  border-bottom: 1px solid #f4f4f8;
+  color: #ededed;
+
+  &:hover {
+    background: $color-gradient-gold;
+    color: $color-client-3;
+    border-top: 2px solid goldenrod;
+    border-bottom: 2px solid goldenrod;
+  }
+}
+
+
+
+.btn_orange {
+  border: none;
+  border-top: 1px solid #fd6a02;
+  border-bottom: 1px solid #fd6a02;
+  color: #fd6a02;
+  background-color: transparent;
+
+  &:hover {
+    background-color: #fd6a02;
+    color: #f8f8f8;
+  }
+}
