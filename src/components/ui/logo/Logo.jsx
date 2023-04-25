@@ -1,4 +1,4 @@
-import logo from '../../../../assets/images/sneakerspot.png'
+import logo from '/sneakerspot.png'
 import './Logo.scss'
 
 const Logo = () => {

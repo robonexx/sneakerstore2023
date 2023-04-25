@@ -2,14 +2,13 @@ import { useState } from 'react'
 import Footer from './components/footer/Footer'
 import Header from './components/header/Header'
 import Hero from './components/hero/Hero'
-import Logo from './components/ui/buttons/logo/Logo'
+import Logo from './components/ui/logo/Logo'
+import Nav from './components/ui/nav/Nav'
 
 // styles
 import './App.scss'
-import Nav from './components/ui/nav/Nav'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className="App">
@@ -28,17 +27,6 @@ function App() {
       <Logo />
       <main>
         <Hero />
-     {/*  <div className="card">
-      <button onClick={() => setCount((count) => count - 1)}>
-          Remove -
-        </button>
-        <div>
-          {count}
-        </div>
-        <button onClick={() => setCount((count) => count + 1)}>
-           Add +
-        </button>
-        </div> */}
       </main>
       <Footer />
     </div>
